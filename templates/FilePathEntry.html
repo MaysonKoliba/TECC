@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<div class = "heading">
+    <h1>TECC Project</h1>
+</div>
+
+{% endblock %}
+
+{% block body %}
+
+<div class="editorSelection">
+    
+    <h2>File Path Entry</h2>
+
+    <form action="/ConfigManager/">
+        <input class="textEntry" type="text">
+        <input class="smallButton" type="submit" value="Submit">
+    </form>
+
+</div>
+{% endblock %}

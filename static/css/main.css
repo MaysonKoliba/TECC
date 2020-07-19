@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: teal;
+}
+
+.heading {
+    background-color:#eee;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    background-color: lightgrey;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: dimgray;
+}
+
+.editorSelection {
+    margin: 40px auto;
+    width: 400px;
+    height: 200px;
+    background-color: #eee;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    float: left;
+}
+
+.textEntry {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    float: left;
+}
+
+.smallButton {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(173, 120, 21);
+    color: white;
+    float: left;
+}
+
+form {
+    display: inline-block;
+}

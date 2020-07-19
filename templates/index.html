@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<div class = "heading">
+    <h1>TECC Project</h1>
+</div>
+
+{% endblock %}
+
+{% block body %}
+
+<div class="editorSelection">
+    
+
+    <h2>Select which platform you would like to make a configuration file for.</h2>
+
+    <form action="/NewOrExisting/">
+        <input class="button" type="submit" value="Vim">
+        <input class="button" type="submit" value="Emacs">
+    </form>
+
+
+</div>
+{% endblock %}

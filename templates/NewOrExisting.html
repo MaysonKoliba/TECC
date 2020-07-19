@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<div class = "heading">
+    <h1>TECC Project</h1>
+</div>
+
+{% endblock %}
+
+{% block body %}
+
+<div class="editorSelection">
+    
+    <h2>Create a new configuration file or edit an existing one?</h2>
+
+    <form action="/FilePathEntry/">
+        <input class="button"  type="submit" value="Edit Existing">
+    </form>
+
+    
+    <form action="/ConfigManager/">
+        <input class="button" type="submit" value="Create New">
+    </form>
+
+</div>
+{% endblock %}
