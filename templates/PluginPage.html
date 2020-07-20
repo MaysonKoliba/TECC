@@ -11,11 +11,11 @@
 {% block body %}
 
 <div class="configManager">   
-    <h2>Config Manager</h2>
+    <h2>Select Pluins to Add</h2>
 
     <div class="pluginConfig">
 
-        <h3>Current Plugins</h3>
+        <h3>Available Plugins</h3>
 
         <table class="currentPlugins">
             {% for plugin in pluginList %}
@@ -24,17 +24,16 @@
                     <h4>{{ plugin.name }}</h4>
                 </td>
                 <td>
-                    <form action="/delete/{{ plugin.id }}">
-                        <input class="smallAssign" type="submit" value="Assign">
-                        <input class="smallDelete" type="submit" value="Delete">
+                    <form action="/add/{{ plugin.id }}">
+                        <input class="smallAssign" type="submit" value="Add">
                     </form>
                 </td>
             </tr>
             {% endfor %}
         </table>
     </div>
-    <form action="/PluginPage/">
-        <input class="button" type="submit" value="Add Plugins">
+    <form action="/ConfigManager/">
+        <input class="button" type="submit" value="Back">
     </form>
 </div>
 {% endblock %}

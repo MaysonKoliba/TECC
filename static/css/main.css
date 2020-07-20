@@ -5,19 +5,19 @@ body {
     text-align: center;
 }
 
+.heading {
+    background-color:#eee;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
 h1 {
     margin: 0px;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: teal;
-}
-
-.heading {
-    background-color:#eee;
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
 }
 
 h2 {
@@ -34,6 +34,35 @@ h2 {
     color: dimgray;
 }
 
+h3 {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(14, 13, 13);
+}
+
+h4 {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    background-color: rgb(84, 140, 177);
+}
+
 .editorSelection {
     margin: 40px auto;
     width: 400px;
@@ -41,6 +70,29 @@ h2 {
     background-color: #eee;
     border-radius: 25px;
     text-align: center;
+}
+
+.configManager {
+    margin: 40px auto;
+    width: 800px;
+    height: 700px;
+    background-color: #eee;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.pluginConfig {
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(175, 210, 238);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.currentPlugins {
+    margin: 0,auto;
+    display: inline-block;
 }
 
 .button {
@@ -72,6 +124,28 @@ h2 {
     width: 100px;
     height: 30px;
     background-color: rgb(173, 120, 21);
+    color: white;
+    float: left;
+}
+
+.smallAssign {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(76, 151, 82);
+    color: white;
+    float: left;
+}
+
+.smallDelete {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(134, 66, 66);
     color: white;
     float: left;
 }
